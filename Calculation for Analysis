@@ -1,0 +1,44 @@
+##Calculations Done:
+
+
+1. Average Facilities per Student (AFPSi​): 
+
+
+AFPSi​=Si​Fi​​
+
+
+Where:
+AFPSi​ is the Average Facilities per Student for state i,
+Fi​ is the total facilities in state i,
+Si​ is the total number of students in state i.
+
+
+2. Maximum Possible Facilities (MPFi​): The determination of the maximum possible facilities is context-dependent. If you have a specific value denoted as the theoretical maximum facilities (TMFi​) for state i, then: 
+MPFi​=TMFi​
+
+
+3. F-Factor Calculation (FFi​): 
+
+
+FFi​=​AFPSi​​/∑​Fi
+
+
+Where:
+
+
+FFi​ is the F-Factor for state i,
+∑​Fi​ is the summation of total facilities across all states.
+This F-Factor provides a normalized measure of the average facilities per student, taking into account the overall availability of facilities across all states. It offers a relative assessment, highlighting the proportional impact of facilities on literacy rates.
+
+
+##Prediction of Literacy:
+
+
+i = % increase in literacy = (CF*FF)%
+Predicted Literacy% = literacy rate 2023 + i
+
+
+The multiplication of these two factors give us the possible growth by doubling the benfit, which in turn if added to the originaly literacy rate can be a decent prediction. 
+
+
+The F-Factor and C-Factor serve as key inputs, allowing us to establish correlations between facilities, creativity, and literacy rates. I derived this equation with the help of statistics and data modelling. These models aim to project future literacy rates based on the identified relationships and historical trends.
